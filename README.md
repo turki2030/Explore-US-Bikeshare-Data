@@ -32,3 +32,13 @@ most common trip from start to end (i.e., most frequent combination of start sta
 
 total travel time
 average travel time
+
+
+# filter by month if applicable
+    if month != 'all':
+        # use the index of the months list to get the corresponding int
+        months = ['january', 'february', 'march', 'april', 'may', 'june']
+        month = months.index(month) + 1
+
+        # filter by month to create the new dataframe
+        df = df[df['month'] == month]
