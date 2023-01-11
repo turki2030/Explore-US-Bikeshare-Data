@@ -21,6 +21,17 @@ The Chicago and New York City files also have the following two columns:
 Gender
 Birth Year
 
+print('Hello! Let\'s explore some US
+bikeshare data!')
+# get user input for city (chicago,
+new york city, washington). HINT:
+Use a while loop to handle invalid
+inputs
+city = check_input("Would you
+like to see the data for chicago, new
+york city or washington?",1)
+# get user input for month (all,
+
 Statistics Computed
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
 
