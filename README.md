@@ -2,6 +2,12 @@
 In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington
 You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 ********
+
+
+CITY_DATA = {'chicago': 'chicago.csv',
+              'new york city': 'new_york_city.csv',
+              'washington': 'washington.csv'}
+------
 Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
 
 Start Time (e.g., 2017-01-01 00:07:57)
@@ -14,6 +20,26 @@ The Chicago and New York City files also have the following two columns:
 
 Gender
 Birth Year
+
+print('Hello! Let\'s explore some US
+bikeshare data!')
+# get user input for city (chicago,
+new york city, washington). HINT:
+Use a while loop to handle invalid
+inputs
+city = check_input("Would you
+like to see the data for chicago, new
+york city or washington?",1)
+# get user input for month (all,
+
+# get user input for month (all,
+january, february, ... , june)
+month = check_input("Which
+Month (all, january, ... june)?", 2)
+# get user input for day of week
+(all, monday, tuesday, ... sunday)
+day = check_input("Which day?
+(all, monday, tuesday, ... sunday)",
 
 Statistics Computed
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
