@@ -32,6 +32,15 @@ like to see the data for chicago, new
 york city or washington?",1)
 # get user input for month (all,
 
+# get user input for month (all,
+january, february, ... , june)
+month = check_input("Which
+Month (all, january, ... june)?", 2)
+# get user input for day of week
+(all, monday, tuesday, ... sunday)
+day = check_input("Which day?
+(all, monday, tuesday, ... sunday)",
+
 Statistics Computed
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
 
